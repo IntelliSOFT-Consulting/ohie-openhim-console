@@ -7,6 +7,6 @@ services:
     ports:
         - "9000:80"
     volumes:
-      - ./console.json:/usr/share/nginx/html/config/default.json
+      - ./default.json:/usr/share/nginx/html/config/default.json
 
 
