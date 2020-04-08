@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  console:
+    container_name: openhim-console
+    image: jembi/openhim-console
+    ports:
+        - "9000:80"
+    volumes:
+      - ./console.json:/usr/share/nginx/html/config/default.json
+
+
