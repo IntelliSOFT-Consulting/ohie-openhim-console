@@ -2,7 +2,7 @@
     "version": "1.10.0",
     "minimumCoreVersion": "3.4.0",
     "protocol": "https",
-    "host": "test.cbhipp.intellisoftkenya.com/",
+    "host": "test.cbhipp.intellisoftkenya.com",
     "port": 8080,
     "title": "Admin Console",
     "footerTitle": "OpenHIM Administration Console",
